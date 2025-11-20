@@ -32,6 +32,8 @@ import APICollectionPage from '../pages/APICollectionPage/APICollectionPage';
 import APIEndpointPage from '../pages/APIEndpointPage/APIEndpointPage';
 import ChartDetailsPage from '../pages/ChartDetailsPage/ChartDetailsPage.component';
 import ContainerPage from '../pages/ContainerPage/ContainerPage';
+import ConversionPage from '../pages/ConversionPage/ConversionPage';
+import CostAssessmentPage from '../pages/CostAssessmentPage/CostAssessmentPage';
 import DashboardDetailsPage from '../pages/DashboardDetailsPage/DashboardDetailsPage.component';
 import DatabaseDetailsPage from '../pages/DatabaseDetailsPage/DatabaseDetailsPage';
 import DatabaseSchemaPageComponent from '../pages/DatabaseSchemaPage/DatabaseSchemaPage.component';
@@ -465,6 +467,10 @@ class EntityUtilClassBase {
         return SpreadsheetDetailsPage;
       case EntityType.WORKSHEET:
         return WorksheetDetailsPage;
+      case EntityType.CONVERSION:
+        return ConversionPage;
+      case EntityType.COST_ASSESSMENT:
+        return CostAssessmentPage;
 
       default:
         return null;
@@ -630,7 +636,7 @@ class EntityUtilClassBase {
   }
 
   // eslint-disable-next-line @typescript-eslint/no-unused-vars
-  public shouldShowEntityStatus(entityType: string): boolean {
+  public shouldShowEntityStatus(_: string): boolean {
     return false;
   }
 }

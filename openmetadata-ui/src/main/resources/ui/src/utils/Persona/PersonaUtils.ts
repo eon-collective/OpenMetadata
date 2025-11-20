@@ -13,6 +13,7 @@
 import { map, startCase } from 'lodash';
 import { ReactComponent as APICollectionIcon } from '../../assets/svg/api-collection-colored.svg';
 import { ReactComponent as APIEndpointIcon } from '../../assets/svg/api-endpoints-colored.svg';
+import { ReactComponent as BotIcon } from '../../assets/svg/bot.svg';
 import { ReactComponent as ChartIcon } from '../../assets/svg/chart-colored.svg';
 import { ReactComponent as ClassificationIcon } from '../../assets/svg/classification-colored-new.svg';
 import { ReactComponent as DashboardIcon } from '../../assets/svg/dashboard-colored-new.svg';
@@ -46,6 +47,7 @@ import i18n from '../i18next/LocalUtil';
 export type CustomizeIconKeys =
   | PageType
   | 'govern'
+  | 'automate'
   | 'dataAssets'
   | 'navigation';
 
@@ -65,6 +67,7 @@ const ENTITY_ICONS: Record<CustomizeIconKeys, SvgComponent> = {
   [PageType.StoredProcedure]: StoredProcedureIcon,
   [PageType.Topic]: MessagingIcon,
   ['govern']: GovernIcon,
+  ['automate']: BotIcon,
   ['dataAssets']: DataAssetsIcon,
   [PageType.LandingPage]: HomepageIcon,
   ['navigation']: NavigationIcon,
@@ -102,6 +105,14 @@ export const getCustomizePageCategories = (): SettingMenuItem[] => {
       isBeta: true,
       description: 'Customize the Govern pages with widget of your preference',
       icon: ENTITY_ICONS['govern'],
+    },
+    {
+      key: 'automate',
+      label: i18n.t('label.automate'),
+      isBeta: true,
+      description:
+        'Customize the Automate pages with widget of your preference',
+      icon: ENTITY_ICONS['automate'],
     },
     {
       key: 'data-assets',

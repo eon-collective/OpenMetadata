@@ -284,7 +284,13 @@ const AddMetricPage = withSuspenseFallback(
     () => import('../../pages/MetricsPage/AddMetricPage/AddMetricPage')
   )
 );
+const ConversionPage = withSuspenseFallback(
+  React.lazy(() => import('../../pages/ConversionPage/ConversionPage'))
+);
 
+const CostAssessmentPage = withSuspenseFallback(
+  React.lazy(() => import('../../pages/CostAssessmentPage/CostAssessmentPage'))
+);
 const AuthenticatedAppRouter: FunctionComponent = () => {
   const { permissions } = usePermissionProvider();
   const { t } = useTranslation();
@@ -756,6 +762,8 @@ const AuthenticatedAppRouter: FunctionComponent = () => {
         element={<Navigate to={ROUTES.MY_DATA} />}
         path={ROUTES.FORGOT_PASSWORD}
       />
+      <Route element={<ConversionPage />} path={ROUTES.CONVERSION} />
+      <Route element={<CostAssessmentPage />} path={ROUTES.COST_ASSESSMENT} />
       <Route element={<Navigate to={ROUTES.NOT_FOUND} />} path="*" />
     </Routes>
   );

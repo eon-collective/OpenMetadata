@@ -14,6 +14,8 @@
 import { Cube01 } from '@untitledui/icons';
 import { ReactComponent as GovernIcon } from '../assets/svg/bank.svg';
 import { ReactComponent as ClassificationIcon } from '../assets/svg/classification.svg';
+import { ReactComponent as ConversionIcon } from '../assets/svg/convert.svg';
+import { ReactComponent as CostAssessmentIcon } from '../assets/svg/dollar-bag.svg';
 import { ReactComponent as ExploreIcon } from '../assets/svg/explore.svg';
 import { ReactComponent as GlossaryIcon } from '../assets/svg/glossary.svg';
 import { ReactComponent as AlertIcon } from '../assets/svg/ic-alert.svg';
@@ -27,6 +29,7 @@ import { ReactComponent as SettingsIcon } from '../assets/svg/ic-settings-v1.svg
 import { ReactComponent as InsightsIcon } from '../assets/svg/lamp-charge.svg';
 import { ReactComponent as LogoutIcon } from '../assets/svg/logout.svg';
 import { ReactComponent as MetricIcon } from '../assets/svg/metric.svg';
+import { ReactComponent as BotIcon } from '../assets/svg/rocket-new.svg';
 import { LeftSidebarItem } from '../components/MyData/LeftSidebar/LeftSidebar.interface';
 import { SidebarItem } from '../enums/sidebar.enum';
 import { DataInsightTabs } from '../interface/data-insight.interface';
@@ -155,6 +158,28 @@ export const SIDEBAR_LIST: Array<LeftSidebarItem> = [
         redirect_url: ROUTES.METRICS,
         icon: MetricIcon,
         dataTestId: `app-bar-item-${SidebarItem.METRICS}`,
+      },
+    ],
+  },
+  {
+    key: 'automate',
+    title: 'label.automate',
+    icon: BotIcon,
+    dataTestId: SidebarItem.AUTOMATE,
+    children: [
+      {
+        key: ROUTES.CONVERSION,
+        title: 'label.conversion',
+        redirect_url: ROUTES.CONVERSION,
+        icon: ConversionIcon,
+        dataTestId: `app-bar-item-${SidebarItem.CONVERSION}`,
+      },
+      {
+        key: ROUTES.COST_ASSESSMENT,
+        title: 'label.cost-assessment',
+        redirect_url: ROUTES.COST_ASSESSMENT,
+        icon: CostAssessmentIcon,
+        dataTestId: `app-bar-item-${SidebarItem.COST_ASSESSMENT}`,
       },
     ],
   },

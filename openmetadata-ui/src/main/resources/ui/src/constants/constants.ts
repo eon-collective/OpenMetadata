@@ -314,6 +314,10 @@ export const ROUTES = {
 
   // Settings
   SETTINGS_SSO: '/settings/sso',
+
+  // Automation
+  CONVERSION: '/conversion',
+  COST_ASSESSMENT: '/cost-assessment',
 };
 
 export const SOCKET_EVENTS = {

@@ -30,4 +30,7 @@ export enum SidebarItem {
   LOGOUT = 'logout',
   METRICS = 'metrics',
   LINEAGE = 'lineage',
+  AUTOMATE = 'automate',
+  CONVERSION = 'conversion',
+  COST_ASSESSMENT = 'cost-assessment',
 }
