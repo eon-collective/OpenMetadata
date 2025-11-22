@@ -318,12 +318,18 @@
     "conversation-lowercase": "gesprek",
     "conversation-plural": "Gesprekken",
     "conversion": "Conversion",
+    "conversionPage": {
+      "title": "Conversion Page"
+    },
     "copied": "Gekopieerd",
     "copy": "Kopiëren",
     "copy-item": "{{item}} kopiëren",
     "cost": "Kosten",
     "cost-analysis": "Kostenanalyse",
     "cost-assessment": "Cost Assessment",
+    "costAssessmentPage": {
+      "title": "Cost Assessment Page"
+    },
     "count": "Aantal",
     "cover-image": "Cover",
     "covered": "Covered",
@@ -1299,6 +1305,7 @@
     "please-select-entity": "Selecteer alstublieft een {{entity}}",
     "plus-count-more": "+ {{count}} meer",
     "plus-symbol": "+",
+    "png": "PNG",
     "policies-evaluated": "Policies Evaluated",
     "policy": "Beleid",
     "policy-lowercase": "beleidsregel",
@@ -2465,6 +2472,7 @@
     "page-sub-header-for-apis": "Ingest metadata from the most popular API services.",
     "page-sub-header-for-bots": "Maak goed gedefinieerde bots met afgebakende toegangsrechten.",
     "page-sub-header-for-column-profile": "Volg en begrijp de structuur van je kolommen met de profiler",
+    "page-sub-header-for-conversion": "Automate conversion of your data assets.",
     "page-sub-header-for-customize-landing-page": "Uw OpenMetadata-landingspagina aanpassen aan verschillende gebruikerspersona's en hun gebruikerservaring",
     "page-sub-header-for-dashboards": "Ingest metadata van de meestgebruikte dashboardservices.",
     "page-sub-header-for-data-observability": "Ingest metadata from test suite services right from the UI.",

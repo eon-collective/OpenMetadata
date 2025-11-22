@@ -318,12 +318,18 @@
     "conversation-lowercase": "การสนทนา",
     "conversation-plural": "การสนทนาหลายรายการ",
     "conversion": "Conversion",
+    "conversionPage": {
+      "title": "Conversion Page"
+    },
     "copied": "คัดลอกแล้ว",
     "copy": "คัดลอก",
     "copy-item": "{{item}} คัดลอก",
     "cost": "ค่า",
     "cost-analysis": "การวิเคราะห์ต้นทุน",
     "cost-assessment": "Cost Assessment",
+    "costAssessmentPage": {
+      "title": "Cost Assessment Page"
+    },
     "count": "จำนวน",
     "cover-image": "Cover",
     "covered": "ครอบคลุม",
@@ -1299,6 +1305,7 @@
     "please-select-entity": "กรุณาเลือก {{entity}}",
     "plus-count-more": "+ {{count}} เพิ่มเติม",
     "plus-symbol": "+",
+    "png": "PNG",
     "policies-evaluated": "Policies Evaluated",
     "policy": "นโยบาย",
     "policy-lowercase": "นโยบาย",
@@ -2465,6 +2472,7 @@
     "page-sub-header-for-apis": "นำเข้าข้อมูลเมตาจากบริการ API ที่เป็นที่นิยมที่สุด",
     "page-sub-header-for-bots": "สร้างบอทที่มีการกำหนดรายละเอียดที่ชัดเจนพร้อมสิทธิ์การเข้าถึงที่จำกัด",
     "page-sub-header-for-column-profile": "ติดตามและเข้าใจโครงสร้างคอลัมน์ของคุณด้วยโปรไฟล์เลอร์",
+    "page-sub-header-for-conversion": "Automate conversion of your data assets.",
     "page-sub-header-for-customize-landing-page": "ปรับแต่งหน้าแรก OpenMetadata ของคุณให้เหมาะสมกับบุคลิกภาพของผู้ใช้ที่แตกต่างและประสบการณ์ของพวกเขา",
     "page-sub-header-for-dashboards": "นำเข้าข้อมูลเมตาจากบริการแดชบอร์ดที่เป็นที่นิยมที่สุด",
     "page-sub-header-for-data-observability": "นำเข้าข้อมูลเมตาจากบริการชุดทดสอบโดยตรงจาก UI",

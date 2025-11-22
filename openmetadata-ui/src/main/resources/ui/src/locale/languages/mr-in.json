@@ -318,12 +318,18 @@
     "conversation-lowercase": "संभाषण",
     "conversation-plural": "संभाषणे",
     "conversion": "Conversion",
+    "conversionPage": {
+      "title": "Conversion Page"
+    },
     "copied": "कॉपी केले",
     "copy": "कॉपी करा",
     "copy-item": "{{item}} कॉपी करा",
     "cost": "किंमत",
     "cost-analysis": "खर्च विश्लेषण",
     "cost-assessment": "Cost Assessment",
+    "costAssessmentPage": {
+      "title": "Cost Assessment Page"
+    },
     "count": "संख्या",
     "cover-image": "Cover",
     "covered": "Covered",
@@ -1299,6 +1305,7 @@
     "please-select-entity": "कृपया {{entity}} निवडा",
     "plus-count-more": "+ {{count}} अधिक",
     "plus-symbol": "प्लस चिन्ह",
+    "png": "PNG",
     "policies-evaluated": "Policies Evaluated",
     "policy": "धोरण",
     "policy-lowercase": "धोरण",
@@ -2465,6 +2472,7 @@
     "page-sub-header-for-apis": "सर्वात लोकप्रिय API सेवांमधून मेटाडेटा अंतर्ग्रहण करा.",
     "page-sub-header-for-bots": "स्कोप केलेल्या प्रवेश परवानग्यांसह चांगले परिभाषित बॉट्स तयार करा.",
     "page-sub-header-for-column-profile": "प्रोफाइलरसह तुमच्या स्तंभांची रचना मॉनिटर आणि समजून घ्या",
+    "page-sub-header-for-conversion": "Automate conversion of your data assets.",
     "page-sub-header-for-customize-landing-page": "वेगवेगळ्या वापरकर्ता व्यक्तिमत्वे आणि त्यांच्या वापरकर्ता अनुभवांना पूरक करण्यासाठी तुमचे OpenMetadata लँडिंग पृष्ठ सानुकूलित करा.",
     "page-sub-header-for-dashboards": "सर्वात लोकप्रिय डॅशबोर्ड सेवांमधून मेटाडेटा अंतर्ग्रहण करा.",
     "page-sub-header-for-data-observability": "UI मधून थेट चाचणी संच सेवांमधून मेटाडेटा अंतर्ग्रहण करा.",

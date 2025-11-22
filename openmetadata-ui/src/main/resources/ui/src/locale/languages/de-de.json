@@ -318,12 +318,18 @@
     "conversation-lowercase": "konversation",
     "conversation-plural": "Konversationen",
     "conversion": "Conversion",
+    "conversionPage": {
+      "title": "Conversion Page"
+    },
     "copied": "Kopiert",
     "copy": "Kopieren",
     "copy-item": "{{item}} kopieren",
     "cost": "Kosten",
     "cost-analysis": "Cost Analysis",
     "cost-assessment": "Cost Assessment",
+    "costAssessmentPage": {
+      "title": "Cost Assessment Page"
+    },
     "count": "Anzahl",
     "cover-image": "Cover",
     "covered": "Covered",
@@ -1299,6 +1305,7 @@
     "please-select-entity": "Bitte eine {{entity}} auswählen",
     "plus-count-more": "+ {{count}} mehr",
     "plus-symbol": "+",
+    "png": "PNG",
     "policies-evaluated": "Policies Evaluated",
     "policy": "Richtlinie",
     "policy-lowercase": "richtlinie",
@@ -2465,6 +2472,7 @@
     "page-sub-header-for-apis": "Lesen Sie Metadaten aus den beliebtesten API-Diensten ein.",
     "page-sub-header-for-bots": "Erstelle gut definierte Bots mit begrenzten Zugriffsberechtigungen.",
     "page-sub-header-for-column-profile": "Überwache und verstehe die Struktur deiner Spalten mit dem Profiler.",
+    "page-sub-header-for-conversion": "Automate conversion of your data assets.",
     "page-sub-header-for-customize-landing-page": "Passen Sie Ihre Anwendungsstartseite basierend auf Benutzer-Personas an.",
     "page-sub-header-for-dashboards": "Ingestion von Metadaten aus den beliebtesten Dashboard-Diensten.",
     "page-sub-header-for-data-observability": "Ingest metadata from test suite services right from the UI.",

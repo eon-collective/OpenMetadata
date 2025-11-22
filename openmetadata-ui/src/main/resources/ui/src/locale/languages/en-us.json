@@ -318,12 +318,18 @@
     "conversation-lowercase": "conversation",
     "conversation-plural": "Conversations",
     "conversion": "Conversion",
+    "conversionPage": {
+      "title": "Conversion Page"
+    },
     "copied": "Copied",
     "copy": "Copy",
     "copy-item": "Copy {{item}}",
     "cost": "Cost",
     "cost-analysis": "Cost Analysis",
     "cost-assessment": "Cost Assessment",
+    "costAssessmentPage": {
+      "title": "Cost Assessment Page"
+    },
     "count": "Count",
     "cover-image": "Cover",
     "covered": "Covered",
@@ -1299,6 +1305,7 @@
     "please-select-entity": "Please Select a {{entity}}",
     "plus-count-more": "+ {{count}} More",
     "plus-symbol": "+",
+    "png": "PNG",
     "policies-evaluated": "Policies Evaluated",
     "policy": "Policy",
     "policy-lowercase": "policy",
@@ -2465,6 +2472,7 @@
     "page-sub-header-for-apis": "Ingest metadata from the most popular API services.",
     "page-sub-header-for-bots": "Create well-defined bots with scoped access permissions.",
     "page-sub-header-for-column-profile": "Monitor and understand your columns structure with the profiler",
+    "page-sub-header-for-conversion": "Automate conversion of your data assets.",
     "page-sub-header-for-customize-landing-page": "Customize your OpenMetadata landing page to cater to distinct user personas and their user experience.",
     "page-sub-header-for-dashboards": "Ingest metadata from the most popular dashboard services.",
     "page-sub-header-for-data-observability": "Ingest metadata from test suite services right from the UI.",

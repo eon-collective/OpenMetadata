@@ -318,12 +318,18 @@
     "conversation-lowercase": "대화",
     "conversation-plural": "대화들",
     "conversion": "Conversion",
+    "conversionPage": {
+      "title": "Conversion Page"
+    },
     "copied": "복사됨",
     "copy": "복사",
     "copy-item": "{{item}} 복사",
     "cost": "비용",
     "cost-analysis": "비용 분석",
     "cost-assessment": "Cost Assessment",
+    "costAssessmentPage": {
+      "title": "Cost Assessment Page"
+    },
     "count": "개수",
     "cover-image": "Cover",
     "covered": "포함됨",
@@ -1299,6 +1305,7 @@
     "please-select-entity": "{{entity}}를 선택해주세요",
     "plus-count-more": "+ {{count}}개 더",
     "plus-symbol": "+",
+    "png": "PNG",
     "policies-evaluated": "Policies Evaluated",
     "policy": "정책",
     "policy-lowercase": "정책",
@@ -2465,6 +2472,7 @@
     "page-sub-header-for-apis": "가장 인기 있는 API 서비스에서 메타데이터를 수집하세요.",
     "page-sub-header-for-bots": "범위가 지정된 접근 권한으로 잘 정의된 봇을 만드세요.",
     "page-sub-header-for-column-profile": "프로파일러를 사용하여 열 구조를 모니터링하고 이해하세요.",
+    "page-sub-header-for-conversion": "Automate conversion of your data assets.",
     "page-sub-header-for-customize-landing-page": "다양한 사용자 페르소나와 그들의 사용자 경험에 맞춰 OpenMetadata 랜딩 페이지를 사용자 정의하세요.",
     "page-sub-header-for-dashboards": "가장 인기 있는 대시보드 서비스에서 메타데이터를 수집하세요.",
     "page-sub-header-for-data-observability": "UI에서 직접 테스트 스위트 서비스에서 메타데이터를 수집하세요.",

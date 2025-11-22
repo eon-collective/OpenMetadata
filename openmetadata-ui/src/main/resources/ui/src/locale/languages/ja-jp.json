@@ -318,12 +318,18 @@
     "conversation-lowercase": "会話",
     "conversation-plural": "会話",
     "conversion": "Conversion",
+    "conversionPage": {
+      "title": "Conversion Page"
+    },
     "copied": "コピー済み",
     "copy": "コピー",
     "copy-item": "{{item}} をコピー",
     "cost": "コスト",
     "cost-analysis": "コスト分析",
     "cost-assessment": "Cost Assessment",
+    "costAssessmentPage": {
+      "title": "Cost Assessment Page"
+    },
     "count": "件数",
     "cover-image": "Cover",
     "covered": "カバー済み",
@@ -1299,6 +1305,7 @@
     "please-select-entity": "{{entity}} を選択してください",
     "plus-count-more": "+{{count}}件",
     "plus-symbol": "+",
+    "png": "PNG",
     "policies-evaluated": "評価されたポリシー",
     "policy": "ポリシー",
     "policy-lowercase": "ポリシー",
@@ -2465,6 +2472,7 @@
     "page-sub-header-for-apis": "人気の API サービスからメタデータを取り込みます。",
     "page-sub-header-for-bots": "スコープ付きのアクセス権限を持つボットを作成します。",
     "page-sub-header-for-column-profile": "プロファイラーで列構造を監視・理解しましょう",
+    "page-sub-header-for-conversion": "Automate conversion of your data assets.",
     "page-sub-header-for-customize-landing-page": "ユーザーペルソナに基づいてアプリケーションのランディングページをカスタマイズします",
     "page-sub-header-for-dashboards": "人気のダッシュボードサービスからメタデータを取り込みます。",
     "page-sub-header-for-data-observability": "UI からテストスイートサービスのメタデータを取り込みます。",

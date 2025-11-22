@@ -318,12 +318,18 @@
     "conversation-lowercase": "דיון",
     "conversation-plural": "דיונים",
     "conversion": "Conversion",
+    "conversionPage": {
+      "title": "Conversion Page"
+    },
     "copied": "הועתק",
     "copy": "העתק",
     "copy-item": "העתק {{item}}",
     "cost": "מחיר",
     "cost-analysis": "ניתוח עלויות",
     "cost-assessment": "Cost Assessment",
+    "costAssessmentPage": {
+      "title": "Cost Assessment Page"
+    },
     "count": "ספירה",
     "cover-image": "Cover",
     "covered": "Covered",
@@ -1299,6 +1305,7 @@
     "please-select-entity": "בחר {{entity}} בבקשה",
     "plus-count-more": "+ {{count}} יותר",
     "plus-symbol": "+",
+    "png": "PNG",
     "policies-evaluated": "Policies Evaluated",
     "policy": "מדיניות",
     "policy-lowercase": "מדיניות",
@@ -2465,6 +2472,7 @@
     "page-sub-header-for-apis": "Ingest metadata from the most popular API services.",
     "page-sub-header-for-bots": "צור בוטים מוגדרים היטב עם הרשאות גישה מוגבלות.",
     "page-sub-header-for-column-profile": "ניטור והבנה של מבנה העמודות שלך עם הפרופילר.",
+    "page-sub-header-for-conversion": "Automate conversion of your data assets.",
     "page-sub-header-for-customize-landing-page": "התאמה אישית של דף הנחיתה באפליקציה שלך על פי דמויות המשתמש.",
     "page-sub-header-for-dashboards": "שלב מטה-דאטה ממוצרי הדשבורדים הפופולריים והנפוצים.",
     "page-sub-header-for-data-observability": "Ingest metadata from test suite services right from the UI.",

@@ -318,12 +318,18 @@
     "conversation-lowercase": "обсуждение",
     "conversation-plural": "Обсуждения",
     "conversion": "Conversion",
+    "conversionPage": {
+      "title": "Conversion Page"
+    },
     "copied": "Скопировано",
     "copy": "Скопировать",
     "copy-item": "Копировать {{item}}",
     "cost": "Стоимость",
     "cost-analysis": "Оценка цены",
     "cost-assessment": "Cost Assessment",
+    "costAssessmentPage": {
+      "title": "Cost Assessment Page"
+    },
     "count": "Количество",
     "cover-image": "Обложка",
     "covered": "Покрыто",
@@ -1299,6 +1305,7 @@
     "please-select-entity": "Выберите объект «{{entity}}»",
     "plus-count-more": " + {{count}} более",
     "plus-symbol": "+",
+    "png": "PNG",
     "policies-evaluated": "Оцененные политики",
     "policy": "Политика",
     "policy-lowercase": "политика",
@@ -2465,6 +2472,7 @@
     "page-sub-header-for-apis": "Извлекайте метаданные из самых популярных API-сервисов.",
     "page-sub-header-for-bots": "Создавайте ботов с ограниченными правами доступа.",
     "page-sub-header-for-column-profile": "Отслеживайте и анализируйте структуру столбцов с помощью профайлера",
+    "page-sub-header-for-conversion": "Automate conversion of your data assets.",
     "page-sub-header-for-customize-landing-page": "Настройте интерфейс для разных персон",
     "page-sub-header-for-dashboards": "Получайте метаданные из самых популярных сервисов информационных панелей.",
     "page-sub-header-for-data-observability": "Извлекайте метаданные из сервисов тестового набора прямо из интерфейса.",

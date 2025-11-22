@@ -318,12 +318,18 @@
     "conversation-lowercase": "conversa",
     "conversation-plural": "Conversas",
     "conversion": "Conversion",
+    "conversionPage": {
+      "title": "Conversion Page"
+    },
     "copied": "Copiado",
     "copy": "Copiar",
     "copy-item": "Copiar {{item}}",
     "cost": "Coste",
     "cost-analysis": "Análise de custos",
     "cost-assessment": "Cost Assessment",
+    "costAssessmentPage": {
+      "title": "Cost Assessment Page"
+    },
     "count": "Contar",
     "cover-image": "Cover",
     "covered": "Cuberto",
@@ -1299,6 +1305,7 @@
     "please-select-entity": "Por favor, selecciona un {{entity}}",
     "plus-count-more": "+ {{count}} máis",
     "plus-symbol": "+",
+    "png": "PNG",
     "policies-evaluated": "Policies Evaluated",
     "policy": "Política",
     "policy-lowercase": "política",
@@ -2465,6 +2472,7 @@
     "page-sub-header-for-apis": "Inxesta metadatos dos servizos de API máis populares.",
     "page-sub-header-for-bots": "Crea bots ben definidos con permisos de acceso delimitados.",
     "page-sub-header-for-column-profile": "Supervisa e comprende a estrutura das túas columnas co perfilador.",
+    "page-sub-header-for-conversion": "Automate conversion of your data assets.",
     "page-sub-header-for-customize-landing-page": "Personaliza a túa páxina de inicio de OpenMetadata para adaptarse a diferentes persoas usuarias e á súa experiencia de usuario.",
     "page-sub-header-for-dashboards": "Inxesta metadatos dos servizos de paneis máis populares.",
     "page-sub-header-for-data-observability": "Inxesta metadatos desde servizos de conxuntos de probas directamente desde a UI.",

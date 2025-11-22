@@ -318,12 +318,18 @@
     "conversation-lowercase": "conversation",
     "conversation-plural": "Conversations",
     "conversion": "Conversion",
+    "conversionPage": {
+      "title": "Conversion Page"
+    },
     "copied": "Copié",
     "copy": "Copier",
     "copy-item": "Copier {{item}}",
     "cost": "Coût",
     "cost-analysis": "Analyse des Coûts",
     "cost-assessment": "Cost Assessment",
+    "costAssessmentPage": {
+      "title": "Cost Assessment Page"
+    },
     "count": "Décompte",
     "cover-image": "Couverture",
     "covered": "Couvert",
@@ -1299,6 +1305,7 @@
     "please-select-entity": "Merci de sélectionner une {{entity}}",
     "plus-count-more": "+ {{count}} de plus",
     "plus-symbol": "+",
+    "png": "PNG",
     "policies-evaluated": "Politiques Évaluées",
     "policy": "Stratégie",
     "policy-lowercase": "stratégie",
@@ -2465,6 +2472,7 @@
     "page-sub-header-for-apis": "Ingérez les métadonnées des services API les plus populaires.",
     "page-sub-header-for-bots": "Créez des agents numériques bien définis avec des autorisations d'accès limitées.",
     "page-sub-header-for-column-profile": "Surveillez et comprenez la structure de vos colonnes avec le profilage",
+    "page-sub-header-for-conversion": "Automate conversion of your data assets.",
     "page-sub-header-for-customize-landing-page": "Personnalisez la page d'accueil de votre application en fonction des Personas",
     "page-sub-header-for-dashboards": "Ingestion de métadonnées à partir des services de tableau de bord les plus populaires.",
     "page-sub-header-for-data-observability": "Ingestion de metadonnées à partir des services de tests directement depuis l'interface utilisateur.",

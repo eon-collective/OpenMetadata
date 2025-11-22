@@ -318,12 +318,18 @@
     "conversation-lowercase": "konuşma",
     "conversation-plural": "Konuşmalar",
     "conversion": "Conversion",
+    "conversionPage": {
+      "title": "Conversion Page"
+    },
     "copied": "Kopyalandı",
     "copy": "Kopyala",
     "copy-item": "{{item}} Kopyala",
     "cost": "Maliyet",
     "cost-analysis": "Maliyet Analizi",
     "cost-assessment": "Cost Assessment",
+    "costAssessmentPage": {
+      "title": "Cost Assessment Page"
+    },
     "count": "Sayı",
     "cover-image": "Cover",
     "covered": "Kapsanan",
@@ -1299,6 +1305,7 @@
     "please-select-entity": "Lütfen bir {{entity}} seçin",
     "plus-count-more": "+ {{count}} Daha Fazla",
     "plus-symbol": "+",
+    "png": "PNG",
     "policies-evaluated": "Policies Evaluated",
     "policy": "Politika",
     "policy-lowercase": "politika",
@@ -2465,6 +2472,7 @@
     "page-sub-header-for-apis": "En popüler API servislerinden metadata alın.",
     "page-sub-header-for-bots": "Kapsamlı erişim izinleriyle iyi tanımlanmış botlar oluşturun.",
     "page-sub-header-for-column-profile": "Profilleyici ile sütun yapınızı izleyin ve anlayın",
+    "page-sub-header-for-conversion": "Automate conversion of your data assets.",
     "page-sub-header-for-customize-landing-page": "OpenMetadata açılış sayfanızı farklı kullanıcı personalarına ve kullanıcı deneyimlerine hitap edecek şekilde özelleştirin.",
     "page-sub-header-for-dashboards": "En popüler kontrol paneli servislerinden metadata alın.",
     "page-sub-header-for-data-observability": "Test paketi servislerinden doğrudan kullanıcı arayüzünden metadata alın.",

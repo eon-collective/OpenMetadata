@@ -318,12 +318,18 @@
     "conversation-lowercase": "مکالمه",
     "conversation-plural": "مکالمات",
     "conversion": "Conversion",
+    "conversionPage": {
+      "title": "Conversion Page"
+    },
     "copied": "کپی شد",
     "copy": "کپی",
     "copy-item": "{{item}} پیکربندی کردن",
     "cost": "هزینه",
     "cost-analysis": "تحلیل هزینه",
     "cost-assessment": "Cost Assessment",
+    "costAssessmentPage": {
+      "title": "Cost Assessment Page"
+    },
     "count": "شمارش",
     "cover-image": "Cover",
     "covered": "Covered",
@@ -1299,6 +1305,7 @@
     "please-select-entity": "لطفاً {{entity}} را انتخاب کنید",
     "plus-count-more": "+ {{count}} بیشتر",
     "plus-symbol": "+",
+    "png": "PNG",
     "policies-evaluated": "Policies Evaluated",
     "policy": "سیاست",
     "policy-lowercase": "سیاست",
@@ -2465,6 +2472,7 @@
     "page-sub-header-for-apis": "متادیتا را از محبوب‌ترین سرویس‌های API ingest کنید.",
     "page-sub-header-for-bots": "ربات‌های کاملاً تعریف شده‌ای با مجوزهای دسترسی تعریف شده ایجاد کنید.",
     "page-sub-header-for-column-profile": "ساختار ستون‌های خود را با پروفایلر نظارت و درک کنید.",
+    "page-sub-header-for-conversion": "Automate conversion of your data assets.",
     "page-sub-header-for-customize-landing-page": "صفحه اصلی OpenMetadata خود را برای ارائه تجربه کاربری خاص به شخصیت‌های مختلف کاربران سفارشی کنید.",
     "page-sub-header-for-dashboards": "متادیتا را از محبوب‌ترین سرویس‌های داشبورد ingest کنید.",
     "page-sub-header-for-data-observability": "متادیتا را از سرویس‌های مجموعه آزمایشی مستقیماً از رابط کاربری ingest کنید.",

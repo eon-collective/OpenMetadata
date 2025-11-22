@@ -318,12 +318,18 @@
     "conversation-lowercase": "对话",
     "conversation-plural": "对话",
     "conversion": "Conversion",
+    "conversionPage": {
+      "title": "Conversion Page"
+    },
     "copied": "已复制",
     "copy": "复制",
     "copy-item": "复制 {{item}}",
     "cost": "成本",
     "cost-analysis": "成本分析",
     "cost-assessment": "Cost Assessment",
+    "costAssessmentPage": {
+      "title": "Cost Assessment Page"
+    },
     "count": "计数",
     "cover-image": "Cover",
     "covered": "Covered",
@@ -1299,6 +1305,7 @@
     "please-select-entity": "请选择{{entity}}",
     "plus-count-more": "超过{{count}}",
     "plus-symbol": "+",
+    "png": "PNG",
     "policies-evaluated": "Policies Evaluated",
     "policy": "策略",
     "policy-lowercase": "策略",
@@ -2465,6 +2472,7 @@
     "page-sub-header-for-apis": "Ingest metadata from the most popular API services.",
     "page-sub-header-for-bots": "创建一个有限访问权限的机器人",
     "page-sub-header-for-column-profile": "通过数据分析工具了解和跟踪您的数据表列结构",
+    "page-sub-header-for-conversion": "Automate conversion of your data assets.",
     "page-sub-header-for-customize-landing-page": "根据用户角色自定义应用登录页面",
     "page-sub-header-for-dashboards": "从最流行的仪表板类型服务中提取元数据",
     "page-sub-header-for-data-observability": "通过 UI 界面, 从质控测试集服务中提取元数据",

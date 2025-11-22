@@ -318,12 +318,18 @@
     "conversation-lowercase": "對話",
     "conversation-plural": "對話",
     "conversion": "Conversion",
+    "conversionPage": {
+      "title": "Conversion Page"
+    },
     "copied": "已複製",
     "copy": "複製",
     "copy-item": "複製 {{item}}",
     "cost": "成本",
     "cost-analysis": "成本分析",
     "cost-assessment": "Cost Assessment",
+    "costAssessmentPage": {
+      "title": "Cost Assessment Page"
+    },
     "count": "計數",
     "cover-image": "Cover",
     "covered": "已涵蓋",
@@ -1299,6 +1305,7 @@
     "please-select-entity": "請選取一個 {{entity}}",
     "plus-count-more": "+ {{count}} 個以上",
     "plus-symbol": "+",
+    "png": "PNG",
     "policies-evaluated": "已評估的政策",
     "policy": "政策",
     "policy-lowercase": "政策",
@@ -2465,6 +2472,7 @@
     "page-sub-header-for-apis": "從最受歡迎的 API 服務擷取元資料。",
     "page-sub-header-for-bots": "建立具有範圍權限的定義明確的機器人。",
     "page-sub-header-for-column-profile": "使用分析器監控和了解您的欄位結構。",
+    "page-sub-header-for-conversion": "Automate conversion of your data assets.",
     "page-sub-header-for-customize-landing-page": "自訂您的 OpenMetadata 登陸頁面，以滿足不同使用者角色的需求和使用者體驗。",
     "page-sub-header-for-dashboards": "從最受歡迎的儀表板服務擷取元資料。",
     "page-sub-header-for-data-observability": "直接從 UI 擷取測試套件服務的元資料。",
