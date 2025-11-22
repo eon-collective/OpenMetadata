@@ -278,6 +278,10 @@ export const PAGE_HEADERS = {
     header: i18n.t('label.lineage'),
     subHeader: i18n.t('message.page-sub-header-for-platform-lineage'),
   },
+  CONVERSION: {
+    header: i18n.t('label.conversion'),
+    subHeader: i18n.t('message.page-sub-header-for-conversion'),
+  },
   DIRECTORY_CUSTOM_ATTRIBUTES: {
     header: i18n.t('label.directory-plural'),
     subHeader: i18n.t('message.define-custom-property-for-entity', {
