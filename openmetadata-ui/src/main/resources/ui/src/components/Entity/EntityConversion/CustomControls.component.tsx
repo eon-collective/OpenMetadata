@@ -128,7 +128,7 @@ const CustomControls: FC<{
     });
   }, [location.search]);
 
-  const { isFullScreen, nodeDepth, activeTab } = useMemo(() => {
+  const { isFullScreen, nodeDepth } = useMemo(() => {
     const lineageDirection =
       queryParams['dir'] === LineageDirection.Upstream
         ? LineageDirection.Upstream
@@ -144,10 +144,10 @@ const CustomControls: FC<{
       : Number(queryParams['depth']);
 
     return {
-      activeTab:
-        queryParams['mode'] === 'impact_analysis'
-          ? 'impact_analysis'
-          : 'lineage',
+      // activeTab:
+      //   queryParams['mode'] === 'impact_analysis'
+      //     ? 'impact_analysis'
+      //     : 'lineage',
       isFullScreen: queryParams[FULLSCREEN_QUERY_PARAM_KEY] === 'true',
       nodeDepth,
       // lineageDirection,
