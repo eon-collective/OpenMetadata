@@ -29,9 +29,8 @@ import {
   onNodeMouseMove,
 } from '../../utils/EntityLineageUtils';
 import Loader from '../common/Loader/Loader';
+import ConversionControlButtons from '../Entity/EntityConversion/ConversionControlButtons';
 import ConversionControlsComponent from '../Entity/EntityConversion/CustomControls.component';
-import LineageControlButtons from '../Entity/EntityLineage/LineageControlButtons/LineageControlButtons';
-import LineageLayers from '../Entity/EntityLineage/LineageLayers/LineageLayers';
 import { SourceType } from '../SearchedData/SearchedData.interface';
 import { ConversionProps } from './Conversion.interface';
 
@@ -65,7 +64,7 @@ const ConversionLineage = ({
   }, []);
 
   useEffect(() => {
-    updateEntityData(entityType, entity as SourceType, isPlatformLineage);
+    updateEntityData(entityType, entity as SourceType);
   }, [entity, entityType, isPlatformLineage]);
 
   // Memoize callback for onEdgeClick to prevent unnecessary re-renders
@@ -159,14 +158,8 @@ const ConversionLineage = ({
               {showMiniMap && (
                 <MiniMap pannable zoomable position="bottom-right" />
               )}
-
-              <Panel
-                className={classNames({ 'edit-mode': isEditMode })}
-                position="bottom-left">
-                <LineageLayers entity={entity} entityType={entityType} />
-              </Panel>
               <Panel position="bottom-right">
-                <LineageControlButtons
+                <ConversionControlButtons
                   miniMapVisible={showMiniMap}
                   onToggleMiniMap={toggleMiniMapVisibility}
                 />

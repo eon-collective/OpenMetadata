@@ -21,15 +21,12 @@ import {
   NodeProps,
   ReactFlowInstance,
 } from 'reactflow';
-import { CSVExportResponse } from '../../components/Entity/EntityExportModalProvider/EntityExportModalProvider.interface';
 import { LineageConfig } from '../../components/Entity/EntityLineage/EntityLineage.interface';
 import { ExploreQuickFilterField } from '../../components/Explore/ExplorePage.interface';
 import { EntityLineageResponse } from '../../components/Lineage/Lineage.interface';
 import { SourceType } from '../../components/SearchedData/SearchedData.interface';
-import { ExportTypes } from '../../constants/Export.constants';
 import { EntityType } from '../../enums/entity.enum';
 import { LineageDirection } from '../../generated/api/lineage/lineageDirection';
-import { LineageLayer } from '../../generated/settings/settings';
 
 export interface ConversionProviderProps {
   children: ReactNode;
@@ -37,7 +34,6 @@ export interface ConversionProviderProps {
 
 export interface ConversionContextType {
   reactFlowInstance?: ReactFlowInstance;
-  dataQualityLineage?: EntityLineageResponse;
   nodes: Node[];
   edges: Edge[];
   tracedNodes: string[];
@@ -53,11 +49,8 @@ export interface ConversionContextType {
   entityLineage: EntityLineageResponse;
   selectedNode: SourceType;
   selectedColumn: string;
-  activeLayer: LineageLayer[];
   expandAllColumns: boolean;
-  isPlatformLineage: boolean;
   entityFqn: string;
-  exportLineageData: (_: string) => Promise<CSVExportResponse>;
   onCloseDrawer: () => void;
   toggleColumnView: () => void;
   onInitReactFlow: (reactFlowInstance: ReactFlowInstance) => void;
@@ -80,25 +73,11 @@ export interface ConversionContextType {
     direction: LineageDirection,
     depth: number
   ) => Promise<void>;
-  fetchLineageData: (
-    entityFqn: string,
-    entityType: string,
-    lineageConfig: LineageConfig
-  ) => void;
-  onExportClick: (
-    entityTypes?: ExportTypes[],
-    callback?: (_: string) => Promise<CSVExportResponse>
-  ) => void;
   removeNodeHandler: (node: Node | NodeProps) => void;
   onColumnEdgeRemove: () => void;
   onAddPipelineClick: () => void;
   onConnect: (connection: Edge | Connection) => void;
-  updateEntityData: (
-    entityType: EntityType,
-    entity?: SourceType,
-    isPlatformLineage?: boolean
-  ) => void;
+  updateEntityData: (entityType: EntityType, entity?: SourceType) => void;
   redraw: () => Promise<void>;
   updateEntityFqn: (entityFqn: string) => void;
-  dqHighlightedEdges?: Set<string>;
 }

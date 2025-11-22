@@ -12,10 +12,6 @@
  */
 import { Grid, Tooltip } from '@mui/material';
 import { Expand05, Home02, Minimize02 } from '@untitledui/icons';
-import { StyledIconButton } from '../../components/LineageTable/LineageTable.styled';
-import './conversion.less';
-// import { ReactComponent as DownloadIcon } from '../../assets/svg/ic-download.svg';
-// import { ReactComponent as SettingsOutlined } from '../../assets/svg/ic-settings-gear.svg';
 import { Card, Select } from 'antd';
 import { DefaultOptionType } from 'antd/lib/select';
 import { AxiosError } from 'axios';
@@ -31,6 +27,7 @@ import { AssetsUnion } from '../../components/DataAssets/AssetsSelectionModal/As
 import { LineageConfig } from '../../components/Entity/EntityLineage/EntityLineage.interface';
 import EntitySuggestionOption from '../../components/Entity/EntityLineage/EntitySuggestionOption/EntitySuggestionOption.component';
 import LineageConfigModal from '../../components/Entity/EntityLineage/LineageConfigModal';
+import { StyledIconButton } from '../../components/LineageTable/LineageTable.styled';
 import PageHeader from '../../components/PageHeader/PageHeader.component';
 import PageLayoutV1 from '../../components/PageLayoutV1/PageLayoutV1';
 import { SourceType } from '../../components/SearchedData/SearchedData.interface';
@@ -62,6 +59,7 @@ import { getOperationPermissions } from '../../utils/PermissionsUtils';
 import { getEncodedFqn } from '../../utils/StringsUtils';
 import { showErrorToast } from '../../utils/ToastUtils';
 import { useRequiredParams } from '../../utils/useRequiredParams';
+import './conversion.less';
 
 const ConversionPage = () => {
   const { t } = useTranslation();
@@ -98,9 +96,6 @@ const ConversionPage = () => {
   const { isFullScreen } = useMemo(() => {
     return {
       isFullScreen: queryParams[FULLSCREEN_QUERY_PARAM_KEY] === 'true',
-      //   platformView:
-      //     (queryParams['platformView'] as LineagePlatformView) ??
-      //     LineagePlatformView.Service,
     };
   }, [queryParams]);
   const handleEntitySelect = useCallback(
@@ -214,20 +209,6 @@ const ConversionPage = () => {
           onSearch={debouncedSearch}
         />
         <div className="d-flex gap-2">
-          {/* <Tooltip
-              arrow
-              placement="top"
-              title={t('label.export-as-type', { type: t('label.png') })}>
-              <StyledIconButton size="large" onClick={handleExport}>
-                <DownloadIcon />
-              </StyledIconButton>
-            </Tooltip> */}
-          {/* <StyledIconButton
-              data-testid="lineage-config"
-              size="large"
-              onClick={handleSettingsClick}>
-              <SettingsOutlined />
-            </StyledIconButton> */}
           <Tooltip
             arrow
             placement="top"
@@ -258,7 +239,6 @@ const ConversionPage = () => {
     defaultValue,
     debouncedSearch,
     isSearchLoading,
-    //   handleExport,
     navigate,
     queryParams,
   ]);
