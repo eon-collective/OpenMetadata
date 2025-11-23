@@ -1519,6 +1519,7 @@
     "search-by-type": "依 {{type}} 搜尋",
     "search-entity": "搜尋 {{entity}}",
     "search-entity-for-lineage": "搜尋 {{entity}} 以檢視血緣",
+    "search-for-asset": "Search for Data Assets",
     "search-for-type": "搜尋 {{type}}",
     "search-index": "搜尋索引",
     "search-index-ingestion": "搜尋索引擷取",

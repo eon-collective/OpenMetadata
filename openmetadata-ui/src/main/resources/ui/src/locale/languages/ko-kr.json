@@ -1519,6 +1519,7 @@
     "search-by-type": "{{type}}로 검색",
     "search-entity": "{{entity}} 검색",
     "search-entity-for-lineage": "계보를 보기 위해 {{entity}} 검색",
+    "search-for-asset": "Search for Data Assets",
     "search-for-type": "{{type}} 검색",
     "search-index": "검색 인덱스",
     "search-index-ingestion": "검색 인덱스 수집",

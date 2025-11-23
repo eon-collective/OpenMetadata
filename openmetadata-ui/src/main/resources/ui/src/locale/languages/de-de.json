@@ -1519,6 +1519,7 @@
     "search-by-type": "Suchen nach {{type}}",
     "search-entity": "{{entity}} suchen",
     "search-entity-for-lineage": "Nach {{entity}} suchen, um Abstammung anzuzeigen",
+    "search-for-asset": "Search for Data Assets",
     "search-for-type": "Suchen nach {{type}}",
     "search-index": "Suchindex",
     "search-index-ingestion": "Suchindex für die Datenaufnahme",

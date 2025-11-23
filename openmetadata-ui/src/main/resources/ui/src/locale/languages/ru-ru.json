@@ -1519,6 +1519,7 @@
     "search-by-type": "Найти по типу «{{type}}»",
     "search-entity": "Найти объект «{{entity}}»",
     "search-entity-for-lineage": "Найдите объект «{{entity}}» для просмотра происхождения",
+    "search-for-asset": "Search for Data Assets",
     "search-for-type": "Найти тип «{{type}}»",
     "search-index": "Индекс поиска",
     "search-index-ingestion": "Получение поискового индекса",

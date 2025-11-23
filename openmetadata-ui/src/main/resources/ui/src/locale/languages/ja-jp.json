@@ -1519,6 +1519,7 @@
     "search-by-type": "{{type}} で検索",
     "search-entity": "{{entity}} を検索",
     "search-entity-for-lineage": "系統を表示するには {{entity}} を検索",
+    "search-for-asset": "Search for Data Assets",
     "search-for-type": "{{type}} を検索",
     "search-index": "検索インデックス",
     "search-index-ingestion": "検索インデックス取り込み",

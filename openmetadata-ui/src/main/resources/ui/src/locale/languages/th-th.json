@@ -1519,6 +1519,7 @@
     "search-by-type": "ค้นหาตาม {{type}}",
     "search-entity": "ค้นหา {{entity}}",
     "search-entity-for-lineage": "ค้นหา {{entity}} เพื่อดูสายพันธุ์",
+    "search-for-asset": "Search for Data Assets",
     "search-for-type": "ค้นหาสำหรับ {{type}}",
     "search-index": "ดัชนีการค้นหา",
     "search-index-ingestion": "การนำเข้าดัชนีการค้นหา",

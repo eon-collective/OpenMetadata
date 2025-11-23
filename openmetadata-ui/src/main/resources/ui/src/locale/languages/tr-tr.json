@@ -1519,6 +1519,7 @@
     "search-by-type": "{{type}} ile Ara",
     "search-entity": "{{entity}} Ara",
     "search-entity-for-lineage": "Veri soyunu görüntülemek için {{entity}} arayın",
+    "search-for-asset": "Search for Data Assets",
     "search-for-type": "{{type}} için Ara",
     "search-index": "Arama Dizini",
     "search-index-ingestion": "Arama Dizini Alımı",
