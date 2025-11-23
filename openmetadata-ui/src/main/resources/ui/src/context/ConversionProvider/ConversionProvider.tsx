@@ -81,7 +81,11 @@ import { useCurrentUserPreferences } from '../../hooks/currentUserStore/useCurre
 import { useApplicationStore } from '../../hooks/useApplicationStore';
 import useCustomLocation from '../../hooks/useCustomLocation/useCustomLocation';
 import { useFqn } from '../../hooks/useFqn';
-import { getLineageDataByFQN, updateLineageEdge } from '../../rest/lineageAPI';
+import {
+  getLineageDataByFQN,
+  getPlatformLineage,
+  updateLineageEdge,
+} from '../../rest/lineageAPI';
 import {
   addLineageHandler,
   centerNodePosition,
@@ -104,7 +108,7 @@ import {
   positionNodesUsingElk,
   removeLineageHandler,
   removeUnconnectedNodes,
-} from '../../utils/EntityLineageUtils';
+} from '../../utils/EntityConversionUtils';
 import {
   getEntityBreadcrumbs,
   getEntityReferenceFromEntity,
@@ -222,7 +226,6 @@ const ConversionProvider = ({ children }: ConversionProviderProps) => {
         ],
         isEqual
       );
-
       const {
         edges: updatedEdges,
         incomingMap,
@@ -245,7 +248,6 @@ const ConversionProvider = ({ children }: ConversionProviderProps) => {
         isFirstTime ? true : undefined,
         false
       );
-
       // Skip animation frame if first time
       if (isFirstTime) {
         // Set initial nodes and edges
@@ -290,7 +292,43 @@ const ConversionProvider = ({ children }: ConversionProviderProps) => {
     },
     [entityFqn, isEditMode, reactFlowInstance, zoomValue, expandAllColumns]
   );
+  const fetchPlatformLineage = useCallback(
+    async (view: string, config?: LineageConfig) => {
+      try {
+        setLoading(true);
+        setInit(false);
+        const res = await getPlatformLineage({
+          config,
+          view,
+        });
 
+        setLineageData(res);
+        const { nodes, edges, entity } = parseLineageData(
+          res,
+          '',
+          entityFqn,
+          config?.pipelineViewMode
+        );
+        const updatedEntityLineage = {
+          nodes,
+          edges,
+          entity,
+        };
+        setEntityLineage(updatedEntityLineage);
+      } catch (err) {
+        showErrorToast(
+          err as AxiosError,
+          t('server.entity-fetch-error', {
+            entity: t('label.lineage-data-lowercase'),
+          })
+        );
+      } finally {
+        setInit(true);
+        setLoading(false);
+      }
+    },
+    []
+  );
   const updateLineageData = useCallback(
     (
       newLineageData: EntityLineageResponse,
@@ -1301,8 +1339,7 @@ const ConversionProvider = ({ children }: ConversionProviderProps) => {
     }
   }, [reactFlowInstance?.viewportInitialized]);
   useEffect(() => {
-    setLoading(true);
-    setInit(true);
+    fetchPlatformLineage('service', lineageConfig);
   }, []);
   const activityFeedContextValues: ConversionContextType = useMemo(() => {
     return {

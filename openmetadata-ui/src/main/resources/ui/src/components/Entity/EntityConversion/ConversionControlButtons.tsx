@@ -33,7 +33,7 @@ import { ReactComponent as ZoomOutIcon } from '../../../assets/svg/ic-zoom-out.s
 import { FULLSCREEN_QUERY_PARAM_KEY } from '../../../constants/constants';
 import { useConversionProvider } from '../../../context/ConversionProvider/ConversionProvider';
 import useCustomLocation from '../../../hooks/useCustomLocation/useCustomLocation';
-import { centerNodePosition } from '../../../utils/EntityLineageUtils';
+import { centerNodePosition } from '../../../utils/EntityConversionUtils';
 import { StyledMenu } from '../../LineageTable/LineageTable.styled';
 
 const LineageControlButtons: FC<{

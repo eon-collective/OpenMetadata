@@ -25,7 +25,7 @@ import {
 } from '../../../constants/Lineage.constants';
 import { useConversionProvider } from '../../../context/ConversionProvider/ConversionProvider';
 import { Column } from '../../../generated/entity/data/table';
-import { getEntityChildrenAndLabel } from '../../../utils/EntityLineageUtils';
+import { getEntityChildrenAndLabel } from '../../../utils/EntityConversionUtils';
 import { getEntityName } from '../../../utils/EntityUtils';
 import searchClassBase from '../../../utils/SearchClassBase';
 import serviceUtilClassBase from '../../../utils/ServiceUtilClassBase';
@@ -221,9 +221,7 @@ const LineageSearchSelect = () => {
       optionFilterProp="dataLabel"
       optionLabelProp="dataLabel"
       options={renderedOptions}
-      placeholder={t('label.search-for-type', {
-        type: t('label.asset-or-column'),
-      })}
+      placeholder={t('label.search-for-asset')}
       popupClassName="lineage-search-options-list"
       searchValue={searchValue}
       onChange={onOptionSelect}

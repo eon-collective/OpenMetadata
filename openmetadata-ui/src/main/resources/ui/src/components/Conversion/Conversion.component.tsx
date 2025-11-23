@@ -27,18 +27,14 @@ import {
   onNodeMouseEnter,
   onNodeMouseLeave,
   onNodeMouseMove,
-} from '../../utils/EntityLineageUtils';
+} from '../../utils/EntityConversionUtils';
 import Loader from '../common/Loader/Loader';
 import ConversionControlButtons from '../Entity/EntityConversion/ConversionControlButtons';
 import ConversionControlsComponent from '../Entity/EntityConversion/CustomControls.component';
 import { SourceType } from '../SearchedData/SearchedData.interface';
 import { ConversionProps } from './Conversion.interface';
 
-const ConversionLineage = ({
-  entity,
-  entityType,
-  isPlatformLineage,
-}: ConversionProps) => {
+const ConversionLineage = ({ entity, entityType }: ConversionProps) => {
   const reactFlowWrapper = useRef<HTMLDivElement>(null);
   const [showMiniMap, setShowMiniMap] = useState(true);
 
@@ -65,7 +61,7 @@ const ConversionLineage = ({
 
   useEffect(() => {
     updateEntityData(entityType, entity as SourceType);
-  }, [entity, entityType, isPlatformLineage]);
+  }, [entity, entityType]);
 
   // Memoize callback for onEdgeClick to prevent unnecessary re-renders
   const handleEdgeClick = useCallback(
